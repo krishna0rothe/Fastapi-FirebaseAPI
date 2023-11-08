@@ -23,8 +23,7 @@ Before you begin, ensure you have the following prerequisites:
 
 1. #### Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/your-fastapi-firebase-project.git
-   cd your-fastapi-firebase-project
+   git clone https://github.com/krishna0rothe/Fastapi-FirebaseAPI.git
 
 2. #### Install project dependencies:
    ```bash
