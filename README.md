@@ -3,7 +3,7 @@ This is a sample project that demonstrates how to build a FastAPI-based web API 
 
 ## Table of Contents
 
--[Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
