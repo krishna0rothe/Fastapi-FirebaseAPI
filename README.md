@@ -14,7 +14,7 @@ This is a sample project that demonstrates how to build a FastAPI-based web API 
 
 Before you begin, ensure you have the following prerequisites:
 
-- Python 3.6 or higher
+- Python 3.11.0 or higher
 - A Firebase project with Firebase Authentication enabled
 - Firebase Admin SDK credentials JSON file
 - [FastAPI](https://fastapi.tiangolo.com/) installed
