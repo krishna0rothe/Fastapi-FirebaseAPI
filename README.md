@@ -1,5 +1,5 @@
 # Fastapi-FirebaseAPI
-This is a sample project that demonstrates how to build a FastAPI-based web API with Firebase Authentication for user registration, login, and profile management.
+This project serves as a comprehensive example of developing a FastAPI-based web API integrated with Firebase Authentication to enable user registration, login, and profile management. For detailed guidance, please refer to the [Postman Documentation](https://documenter.getpostman.com/view/30956498/2s9YXh6iS3) to explore the API endpoints and functionalities.
 
 ## Table of Contents
 
