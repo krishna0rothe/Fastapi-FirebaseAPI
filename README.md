@@ -56,7 +56,6 @@ Before you begin, ensure you have the following prerequisites:
 ## Configuration
   To configure the project, open the `main.py` file and update the Firebase configuration in the `firebaseConfig` dictionary. Additionally, initialize the Firestore client as shown below:
 ```python
-# Firebase configuration for the web app
 firebaseConfig = {
     "apiKey": "YOUR_API_KEY",
     "authDomain": "YOUR_AUTH_DOMAIN",
@@ -65,10 +64,8 @@ firebaseConfig = {
     "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
     "appId": "YOUR_APP_ID",
     "measurementId": "YOUR_MEASUREMENT_ID",
-    "databaseURL": ""  # Leave this as an empty string
+    "databaseURL": ""  # Leave this as an "empty string"
 }
-
-# Initialize Firestore client
 db = firestore.Client(project="YOUR_PROJECT_ID")
 ```
 Replace `YOUR_API_KEY`, `YOUR_AUTH_DOMAIN`, `YOUR_PROJECT_ID`, and other placeholders with your Firebase project's actual configuration values.
