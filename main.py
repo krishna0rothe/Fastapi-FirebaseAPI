@@ -87,7 +87,7 @@ async def create_access_token(user_data:LoginSchema):
 
     try:
         # Sign in the user with Firebase Authentication 
-        user = auth.sign_in_with_email_and_password(
+        user = firebase.auth().sign_in_with_email_and_password(
             email= email,
             password= password
         )
