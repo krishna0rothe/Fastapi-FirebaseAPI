@@ -14,7 +14,7 @@ This project serves as a comprehensive example of developing a FastAPI-based web
 
 Before you begin, ensure you have the following prerequisites:
 
-- Python 3.11.0 or higher
+- [Python](https://www.python.org/downloads/release/python-3120/) 3.11.0 or higher
 - A Firebase project with Firebase Authentication enabled
 - Firebase Admin SDK credentials JSON file
 - [FastAPI](https://fastapi.tiangolo.com/) installed
@@ -42,8 +42,10 @@ Before you begin, ensure you have the following prerequisites:
    uvicorn main:app
    ```
 6. ##### Access the API documentation:
-   Open your web browser and navigate to `http://localhost:8000/` to view the interactive API documentation.
+   Open your web browser and navigate to `http://localhost:8000/` to view the interactive API documentation. Yow will see something like this:
 
+   ![Sign_UP](https://github.com/krishna0rothe/Fastapi-FirebaseAPI/assets/146362721/c8a0b1c8-310a-4136-a0f1-2d10e52ba504)
+   
 ## Project Structure
   The project structure is organized as follows:
   -  `main.py`: The main FastAPI application.
